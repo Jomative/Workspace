@@ -1,0 +1,2 @@
+-Used hostinger for hosting the game. 
+-function animate() has requestAnimationFrame instead of the function update()

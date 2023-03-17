@@ -1,0 +1,8 @@
+#can{
+    outline: solid 5px gray;
+    width: 95%;
+    image-rendering: pixelated;
+}
+body{
+    margin:0px;
+}

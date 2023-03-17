@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dribbble Panch</title>
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/metropolis" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div id="container">
+
+        <!-- navbar -->
+        <div id="nav">
+            <div id="logo"><p>P.</p></div>
+            <a href="#"><img src="imgs/filter.png" alt="filter" class="btn"></a>
+            <a href="#"><img src="imgs/dashboard.png" alt="dashboard" class="btn active"></a>
+            <a href="#"><img src="imgs/profile.png" alt="profile" class="btn"></a>
+            <a href="#"><img src="imgs/stats.png" alt="stats" class="btn"></a>
+        </div>
+
+        <!-- main -->
+        <div id="main">
+            <h2>Progress Dashboard</h2>
+
+            <section class="top">
+                <div class="exam">
+                    <p><span class="subtitle">DEADLINE </span>12:00</p>
+                    <p class="largeTitle">Exam - Unit 5</p>
+                    <p class="subTitle">Spanish for beginners</p>
+                    <div class="test">
+                        <img src="imgs/profile-imgs.png" alt="profile-imgs">
+                        <a href="#">Start testing</a>
+                    </div>
+                </div>
+                <div class="homework todo">
+                    <div class="material-icons">add_task</div>
+                    <p class="todoTitle">Homework</p>
+                    <p class="todoSub">For today's <br>lesson.</p>
+                </div>
+                <div class="reading todo">
+                    <div class="material-icons">add_task</div>
+                    <p class="todoTitle">Reading</p>
+                    <p class="todoSub">25 words per <br>week.</p>
+                </div>
+            </section>
+
+            <section class="middle">
+                <div class="group">
+                    <div class="groupHeader">
+                        <p class="title">Group Info <br>
+                        <span class="subTitle">13 students in the group</span></p>
+                        <div class="material-icons">circle_notifications</div>
+                    </div>
+                    <div class="groupHomework">
+                        <p class="title">Group homework <br>
+                        <span class="subTitle">5 students from your group online now</span></p>
+                        <div class="material-icons">chevron_right</div>
+                    </div>
+                    <div class="groupFooter">
+                        <p class="title">Today's lesson <br>
+                        <span class="subTitle">Unit 6 - Articles</span></p>
+                        <p>12:00</p>
+                    </div>
+                </div>
+                <div class="flagProgress">
+                    <div class="flagProgressTitle">
+                        <img src="imgs/spain.png" alt="Spain">
+                        <p class="largeTitle">Spanish for <br>beginners</p>
+                    </div>
+                    <div class="flagProgressAmt">
+                        <p>75%</p>
+                        <progress value="75" max="100"></progress>
+                    </div>
+                </div>
+            </section>
+            <section class="bottom">
+                <div class="botGrammar bot">
+                    <div>
+                        <div class="material-icons">edit</div>
+                        <p class="title">Grammar <br><span class="subTitle">+ 30 grammar rules</span>
+                        </p>
+                    </div>
+                    <div class="material-icons">chevron_rights</div>
+                </div>
+                <div class="botDictionary bot">
+                    <div>
+                        <div class="material-icons">edit</div>
+                        <p class="title">Dictionary <br><span class="subTitle">+ 10 new words</span>
+                        </p>
+                    </div>
+                    <div class="material-icons">spellcheck</div>
+                </div>
+            </section>
+        </div>
+
+        <!-- profile -->
+        <div id="profile"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

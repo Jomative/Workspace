@@ -1,0 +1,21 @@
+#lockCont{
+    margin: auto;
+    border:solid 5px gray;
+    background-image: url("images/locked.png");
+    width: 100px;
+    height: 120px;
+}
+
+#combinationCont{
+    margin:auto;
+    border:solid 5px black;
+    display: flex;
+    justify-content: center;
+}
+
+#combinationCont > * {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}

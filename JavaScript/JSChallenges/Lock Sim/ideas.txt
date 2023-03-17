@@ -1,0 +1,4 @@
+-morse code / other encryption, then reveal/decrypt it with correct combo
+-smooth lock anim
+-better colors
+-proper css centering and control
